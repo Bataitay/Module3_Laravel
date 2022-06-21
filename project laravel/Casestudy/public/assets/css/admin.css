@@ -1,0 +1,147 @@
+.card-btn .btn-light {
+    color: #fff;
+    background: #444;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    transition: 0.5s;
+    border: none;
+}
+
+.card-btn button:hover {
+    letter-spacing: 0.25em;
+    /* background: var(--clr); */
+    color: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+}
+
+.card-btn button::before {
+    content: "";
+    position: absolute;
+    inset: 2px;
+    /* background: #27282c; */
+}
+
+.card-btn button span {
+    position: relative;
+    z-index: 1;
+}
+
+.card-btn button i {
+    position: absolute;
+    inset: 0;
+    display: block;
+}
+
+.card-btn button i::before {
+    content: "";
+    position: absolute;
+    border: 2px solid var(--clr);
+    top: 8.5px;
+    left: 94%;
+    width: 15px;
+    height: 6px;
+    background: #27282c;
+    transform: translateX(-50%);
+    transition: 0.5s;
+}
+
+.card-btn button:hover i::before {
+    width: 20px;
+    left: 82%;
+}
+
+.card-btn button i::after {
+    content: "";
+    position: absolute;
+    border: 2px solid var(--clr);
+    bottom: 7.7px;
+    left: 85%;
+    width: 15px;
+    height: 5.8px;
+    background: #27282c;
+    transform: translateX(-50%);
+    transition: 0.5s;
+}
+
+.card-btn button:hover i::after {
+    width: 20px;
+    left: 94%;
+}
+/* */
+.card-btn a:hover {
+    letter-spacing: 0.25em;
+    /* background: var(--clr); */
+    color: var(--clr);
+    box-shadow: 0 0 35px var(--clr);
+}
+
+.card-btn a::before {
+    content: "";
+    position: absolute;
+    inset: 2px;
+    /* background: #27282c; */
+}
+
+.card-btn a span {
+    position: relative;
+    z-index: 1;
+}
+
+.card-btn a i {
+    position: absolute;
+    inset: 0;
+    display: block;
+}
+
+.card-btn a i::before {
+    content: "";
+    position: absolute;
+    border: 2px solid var(--clr);
+    top: 8.5px;
+    left: 94%;
+    width: 15px;
+    height: 6px;
+    background: #27282c;
+    transform: translateX(-50%);
+    transition: 0.5s;
+}
+
+.card-btn a:hover i::before {
+    width: 20px;
+    left: 82%;
+}
+
+.card-btn a i::after {
+    content: "";
+    position: absolute;
+    border: 2px solid var(--clr);
+    bottom: 7.7px;
+    left: 85%;
+    width: 15px;
+    height: 5.8px;
+    background: #27282c;
+    transform: translateX(-50%);
+    transition: 0.5s;
+}
+
+.card-btn a:hover i::after {
+    width: 20px;
+    left: 94%;
+}
+
+.action button {
+    border: none;
+}
+/* .action span {
+    display: inline-block;
+} */
+.action .action-restore {
+    float: left;
+}
+.action .action-delete {
+    margin-right:40px;
+}
+.bin  {
+    display: flex;
+}
+
